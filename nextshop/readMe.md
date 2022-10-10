@@ -1,3 +1,4 @@
+Steps to follow:
 1- npx create-next-app nextshop
 2- npm run dev
 3- add tailwind css - https://tailwindcss.com/docs/guides/nextjs | npx tailwindcss init -p

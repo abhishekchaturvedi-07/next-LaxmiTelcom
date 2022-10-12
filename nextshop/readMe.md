@@ -35,3 +35,13 @@ List Products:
    24. add reducer
    25. create store provider
    26. handle add to cart button in [slug].js
+
+    Create Cart Page
+   27. create cart.js page
+   28. use context to get cart items in cart page
+   29. list items in cart items in table
+   30. redirect to cart screen after add to cart
+   31. add heroicon close button
+   32. add redirect router in slug-product page to cart
+   33. add redirect to shipping from cart
+   34. REMOVE Item from cart case added in store .js reducer

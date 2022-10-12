@@ -26,3 +26,12 @@ List Products:
    17. show add to cart action on third column
    18. add styles
    19. Add dependency - @types/react - to fix auto import  from react
+
+
+   20.Handle Add To Cart
+   21. define react context add Store.js in utils and create StoreProvider
+   22. define cart items initialState, Create Reducer with action and state, PAss this to StoreProvider with value and wrap it to appjs component which will be available for all children, dividing it in below steps:
+   23. create addd to cart action
+   24. add reducer
+   25. create store provider
+   26. handle add to cart button in [slug].js

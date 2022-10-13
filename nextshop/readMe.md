@@ -45,3 +45,7 @@ List Products:
    32. add redirect router in slug-product page to cart
    33. add redirect to shipping from cart
    34. REMOVE Item from cart case added in store .js reducer
+
+    Update Quanity In The Cart
+    35.  add select box for quantity - add UpdateCartHandler function in cart.js and replace total quantity with select option with quantity numbers
+    36. handle select box change by writing code in UpdateCartHandler function and dispatch that with reducer - ADD_CART_ITEM

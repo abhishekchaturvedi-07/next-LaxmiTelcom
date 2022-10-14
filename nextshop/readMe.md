@@ -48,4 +48,11 @@ List Products:
 
     Update Quanity In The Cart
     35.  add select box for quantity - add UpdateCartHandler function in cart.js and replace total quantity with select option with quantity numbers
-    36. handle select box change by writing code in UpdateCartHandler function and dispatch that with reducer - ADD_CART_ITEM
+    36. handle select box change by writing code in UpdateCartHandler function and dispatch that with reducer - ADD_CART_ITEM  
+
+     Save Cart Items
+    37. install js-cookie package to save cart item in cookie
+    38. save and retreive cart items in cookies. Store js to store the cookie fetch the cookie
+    39. Dynamic from next/dynamic -> to get rid of hydration failed error and load Cart.js in client side
+    40. Layout.js -> useState and useEffect to calculate and update the cartItem count and update the change in header menu and get rid of hydration failed error
+    41. add eslint rule node:yes to get rid of eslint error in promise in dynamic function

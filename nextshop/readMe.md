@@ -75,3 +75,16 @@ List Products:
     50. Create Models - User.js with schema to create userSchema and Users
     51. create sample users and verify it in the mongo db atlas after having handler function in seed.js
   Handler Function is async and having -db.connect() , User.deleteMany(); User.insertMany(data.users); db.disconnect(); res.send({ message: 'seeded successfully' });
+
+
+   Create Login API
+    52. install next-auth and react-toastify
+    53. In Layout, show username if logged  In 
+    54. In app.js, added Session Provide to provide session throughout the app
+    55. In Login Page, added send ajax request to signIn aPI function to authenticate user 
+    56. create [...nextauth].js <- api / auth 
+    57. In NextAuth Js added Callbacks, Providers for credential authentication with mongo db database with findOne
+    58. Erro.Js inside Utils to check if any error then show error message otherwise custom show
+    59. implement signin
+    60. use signin in login form
+    

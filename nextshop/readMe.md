@@ -56,3 +56,22 @@ List Products:
     39. Dynamic from next/dynamic -> to get rid of hydration failed error and load Cart.js in client side
     40. Layout.js -> useState and useEffect to calculate and update the cartItem count and update the change in header menu and get rid of hydration failed error
     41. add eslint rule node:yes to get rid of eslint error in promise in dynamic function
+
+
+     Commit 9 - Create Login Form
+    42. install react hook form for the script  validation
+    43. create input boxes
+    44. add login button
+    45. Car.js -> redirection to login, authenticate the user and then move to shipping -> login?redirect=/shipping
+    
+
+   Connect To MongoDB
+    46. install mongoose to connect with mongo db and bcryptjs to encrypt password
+    47. install mongodb or use mongodb atlas
+    48. save connection url in .env file - modify the URL according to the actual username & password and add the DB name before ? Query paramter
+    49. Download Mongodb Compass and install it.
+    50. Copy the Mondogb_URI from the env file and paste it on compass - NEW CONNECTION
+    49. create db utils file to conenct to mongo db | Install MONGOOSE BEFORE LIKE IN 46. Have connect and disconenct function and pass that as an object to DB and export it
+    50. Create Models - User.js with schema to create userSchema and Users
+    51. create sample users and verify it in the mongo db atlas after having handler function in seed.js
+  Handler Function is async and having -db.connect() , User.deleteMany(); User.insertMany(data.users); db.disconnect(); res.send({ message: 'seeded successfully' });

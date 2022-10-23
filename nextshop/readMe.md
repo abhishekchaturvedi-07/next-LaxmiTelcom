@@ -87,4 +87,12 @@ List Products:
     58. Erro.Js inside Utils to check if any error then show error message otherwise custom show
     59. implement signin
     60. use signin in login form
+
+
+    Add User Menu
+    61. Install headlessui/react for the navigation and then import that in Layout.js as Menu. check user authentication
+    62. Created New component 'DROPDOWNLINK'
+    63. logouthandler in logout.js and added menu for user with user name and lopout
+    64. added style for hover and menu item and blue to all the links
+    65. Store,js - added a case for Cart_Reset
     

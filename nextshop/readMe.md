@@ -112,3 +112,9 @@ List Products:
     74. global scss added default button style 
     75. STore - Set Default value for payment method
     76. Store - created case for Save Payment Method
+
+
+    Seed sample products
+    77. Created Product Model and insert sample products to mongodb via seed 
+    78. add await Product.deleteMany(); | await Product.insertMany(data.products); in seed.js to delete all first and then insert the seeded products on db
+    78. hit url localhost:3000/api/seed - insert dummy prouct in db 

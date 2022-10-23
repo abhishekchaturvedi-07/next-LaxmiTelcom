@@ -106,3 +106,9 @@ List Products:
     71. STore - Set Default value for shipping address
     72. STORE - Created case - "SAVE SHIPPING ADDRESS"
     
+
+     Create Payment Method Screen
+    73. Created Payment method screen 
+    74. global scss added default button style 
+    75. STore - Set Default value for payment method
+    76. Store - created case for Save Payment Method

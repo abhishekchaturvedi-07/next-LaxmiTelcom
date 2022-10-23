@@ -96,3 +96,13 @@ List Products:
     64. added style for hover and menu item and blue to all the links
     65. Store,js - added a case for Cart_Reset
     
+
+    Create Shipping Screen
+    66. Create Component - CheckoutWizard
+    67. Create Multi Step Checkout Header to show active and inactive steps - USER LOGIN > SHIPPING ADDRESS > PAYMENT METHOD > PLACE ORDER
+    68. **HIGHER ORDER COMPONENT** APP.JS - created AUTH Function to verify the login user (or before rendering the component ) or not accordingly display the inner pages 
+    69. Created Shipping screen and sync it with local cookie data which also get operated from Context API Store
+    70. Created Unauthorized page as well
+    71. STore - Set Default value for shipping address
+    72. STORE - Created case - "SAVE SHIPPING ADDRESS"
+    

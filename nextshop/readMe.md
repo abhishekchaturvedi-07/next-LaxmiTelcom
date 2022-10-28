@@ -118,3 +118,15 @@ List Products:
     77. Created Product Model and insert sample products to mongodb via seed 
     78. add await Product.deleteMany(); | await Product.insertMany(data.products); in seed.js to delete all first and then insert the seeded products on db
     78. hit url localhost:3000/api/seed - insert dummy prouct in db 
+
+    Load Products MongoDB
+    79. install axios to fetch data ro mongo db
+    80. Product item component - added addtocart handler function
+    81. cart.js - checked the quantity of the item in backend and display the message and item accordingly
+    82. index - added addtocarthandler when click on add to cart
+    83. [id].js - added product - id.js to check the product by id
+    84. [slug].js - fetch the product from databse and add addtocarthandler
+    85. in DB.js added ConvertToDoc function to convert the db data into json to fix serialization error in next js 
+    86. load products in home page from mongodb
+    87. load products in product page from mongodb
+    88. use product api to check count in stock in add to cart

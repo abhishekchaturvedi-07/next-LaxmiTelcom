@@ -140,3 +140,11 @@ List Products:
     2. display payment method
     3. display order items
     4. implment create order
+
+    Create Order Screen
+    93. order/[id].js - created api to return the order infor based on order id 
+    94. pages>order>[id].js - created a page to show the placed order with the details in the screen
+    95. global scss alert - success and error
+    1. implement backend api for order details
+    2. load order data from backend
+    3. display order details

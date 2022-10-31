@@ -130,3 +130,13 @@ List Products:
     86. load products in home page from mongodb
     87. load products in product page from mongodb
     88. use product api to check count in stock in add to cart
+
+    Create Order Screen
+    89. Order.js - create a Model to save order information
+    90. payment.js - enabled paymentscreen.auth = true so that this screen can be authenticated once the user is logged in  
+    91. placeorder.js -  screen created to preview the order and place it 
+    92. api/order/index.js- createed api to create an order 
+    1. display shipping address
+    2. display payment method
+    3. display order items
+    4. implment create order

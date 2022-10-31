@@ -148,3 +148,17 @@ List Products:
     1. implement backend api for order details
     2. load order data from backend
     3. display order details
+
+    Pay Order By PayPal
+    96. Create account on developer.paypal.com and upgrade to business account
+    97. go to MyApps & Credentials and create sandbox dummy paypal account for the testing purpose on local
+    98. npm i @paypal/react-paypal-js package 
+    99. model>Order.js - added paymentResult to set the email address of the user in paypal
+    100. _app.js - wrpa the component with PayPalScriptProvider 
+    101. api>keys>paypal.js - created an api to set the paypal id 
+    102. rename / remove the pages>api>orders>[id.js] to pages>api>orders>[id]>index.js and to create the backend api to update the payment status of the order in paypal
+    103. order>[id].js - created placeholder for paypal buttons and handled the various states of the order 
+    1. add paypal button
+    2. handle payment
+    3. create backend api
+    4. update order state

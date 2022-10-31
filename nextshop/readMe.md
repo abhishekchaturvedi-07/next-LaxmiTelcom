@@ -162,3 +162,10 @@ List Products:
     2. handle payment
     3. create backend api
     4. update order state
+
+    Create Order History Screen
+    104. order-histiory.js - created the page to display the all order of current user 
+    105. api>order>history.js - created api to return all orders by current user
+    1. create my order api
+    2. create order history component
+    3. fetch orders and display them
